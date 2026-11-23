@@ -1,7 +1,8 @@
 {
-  "name": "react-example",
+  "name": "gamura-studio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Mobile-first vector design studio and UI wireframing app with artboards, smart alignment, layered outlines, and HTML/SVG/PNG/PDF export.",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",

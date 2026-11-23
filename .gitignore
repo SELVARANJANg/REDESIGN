@@ -2,7 +2,13 @@ node_modules/
 build/
 dist/
 coverage/
+.vercel/
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
 *.log
+*.tsbuildinfo
+server.js
 .env*
 !.env.example

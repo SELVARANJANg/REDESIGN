@@ -1,4 +1,3 @@
-import { jsPDF, GState } from 'jspdf';
 import { CanvasElement, Page, ProjectState, RadialGradientSpec } from '../types';
 import { DEFS, escapeHtml, getBoundingBox, isInside } from './helpers';
 import { pointsToLinearSvgPath, pointsToSmoothSvgPath } from './pathSmoothing';
@@ -383,6 +382,7 @@ export async function exportArtboardToPdf(
     itemsToRender = visibleItems;
   }
 
+  const { jsPDF, GState } = await import('jspdf');
   const doc = new jsPDF({
     orientation: pageW > pageH ? 'landscape' : 'portrait',
     unit: 'pt',
