@@ -1,0 +1,6 @@
+{
+  "name": "Gamura Redesign - Canvas UI & Design Studio",
+  "description": "Mobile-first vector design studio and UI wireframing app with artboards, rich styling, layered outlines, and real-time HTML/CSS code export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
